@@ -64,7 +64,13 @@ exports.create = (req, res) => {
 
 // Retrieve and return all items from the database.
 exports.findAll = (req, res) => {
-    Supplier.paginate({ status: { $ne: 'DELETED' } }, { limit: 20 })
+
+    var options = {
+        sort: { updatedAt: -1 },
+        limit: 20
+    };
+
+    Supplier.paginate({ status: { $ne: 'DELETED' } }, options)
         .then(suppliers => {
             res.send(suppliers);
         }).catch(err => {

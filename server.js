@@ -76,6 +76,6 @@ require('./app/routes/report.routes.js')(app);
 
 
 // listen for requests
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log("Server is listening on port 3000");
 });

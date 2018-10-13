@@ -158,9 +158,12 @@ exports.findAll = (req, res) => {
     //     });
 
 
+    var options = {
+        sort: { updatedAt: -1 },
+        limit: 20
+    };
 
-
-    Item.paginate({ status: { $ne: 'DELETED' } }, { limit: 20 })
+    Item.paginate({ status: { $ne: 'DELETED' } }, options)
         .then(items => {
             res.send(items);
         }).catch(err => {
