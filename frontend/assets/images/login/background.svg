@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1366_1);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        opacity: 0.56;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-4 {
+        opacity: 0.59;
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.776" y1="0.686" x2="0.337" y2="0.565" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff44e0"/>
+      <stop offset="1" stop-color="#8900ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.706" y1="0.649" x2="0.399" y2="1.087" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff00a1"/>
+      <stop offset="1" stop-color="#2900ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.605" y1="0.846" x2="0.298" y2="0.418" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0f"/>
+      <stop offset="1" stop-color="#70f"/>
+    </linearGradient>
+    <clipPath id="clip-Web_1366_1">
+      <rect width="1366" height="768"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1366_1" data-name="Web 1366 – 1" class="cls-1">
+    <g id="Group_1" data-name="Group 1" transform="translate(0 -100.25)">
+      <path id="Path_2" data-name="Path 2" class="cls-2" d="M-1996,393.518V662.16s193.39-154.91,500.344-32.581,435.468,98.949,570.165,42.234S-630,419.915-630,419.915V377.68s-309.367,290.362-478,241.34-286.742-209.815-571.071-199.105S-1996,393.518-1996,393.518Z" transform="translate(1995.999 -9.338)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-3" d="M-1996,270.317V684.064s214.96-158.832,489.484-50.983,372.568,129.419,588.266-19.608S-630,470.328-630,470.328v-90.2S-943.742,652.69-1112.378,603.668-1488.869,331.1-1743.784,358.557-1996,270.317-1996,270.317Z" transform="translate(1996 -11)"/>
+      <path id="Path_4" data-name="Path 4" class="cls-4" d="M-1996,442.6V597.318s254.177-72.553,503.21,15.687,429.434,98.044,574.54,35.3S-630,442.6-630,442.6V414.956s-303.938,247.072-472.574,198.05-386.295-247.072-641.21-219.619S-1996,442.6-1996,442.6Z" transform="translate(1996 -47.961)"/>
+    </g>
+  </g>
+</svg>

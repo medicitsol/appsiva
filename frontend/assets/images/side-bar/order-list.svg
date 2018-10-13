@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 29">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-order_list);
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        fill: none;
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 1.5px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-width: 1.2px;
+      }
+
+      .cls-4 {
+        stroke-miterlimit: 10;
+      }
+    </style>
+    <clipPath id="clip-order_list">
+      <rect width="30" height="29"/>
+    </clipPath>
+  </defs>
+  <g id="order_list" data-name="order list" class="cls-1">
+    <g id="Group_77" data-name="Group 77" transform="translate(-1.792 2.247)">
+      <path id="Path_26" data-name="Path 26" class="cls-2" d="M-1795.854-239h7.208" transform="translate(1803.646 247.835)"/>
+      <path id="Path_37" data-name="Path 37" class="cls-2" d="M-1795.854-239h4.326" transform="translate(1803.646 251.835)"/>
+      <path id="Path_27" data-name="Path 27" class="cls-2" d="M-1795.854-239h4.326" transform="translate(1803.646 255.835)"/>
+      <g id="Group_75" data-name="Group 75" transform="translate(-3)">
+        <g id="Group_76" data-name="Group 76">
+          <path id="Path_25" data-name="Path 25" class="cls-3" d="M-1795.854-238.947h3.78" transform="translate(1815.68 251.805)"/>
+          <path id="Path_36" data-name="Path 36" class="cls-3" d="M-1795.854-238.877h3.61" transform="translate(-215.271 1805.678) rotate(90)"/>
+          <path id="Path_35" data-name="Path 35" class="cls-4" d="M12.579,7A5.579,5.579,0,1,1,7,12.579" transform="translate(10.377 -0.247)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

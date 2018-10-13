@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 29">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-order_list_1);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+    </style>
+    <clipPath id="clip-order_list_1">
+      <rect width="30" height="29"/>
+    </clipPath>
+  </defs>
+  <g id="order_list_1" data-name="order list – 1" class="cls-1">
+    <g id="Group_197" data-name="Group 197" transform="translate(4.147 4.71)">
+      <path id="Path_44" data-name="Path 44" class="cls-2" d="M881-140.349V-154.8h9.09l3.619,3.619v10.83Z" transform="translate(-873.504 160.699)"/>
+      <path id="Path_45" data-name="Path 45" class="cls-2" d="M894.063-154.8v3.915h3.673" transform="translate(-877.518 160.699)"/>
+      <path id="Path_46" data-name="Path 46" class="cls-2" d="M884.683-146.408h5.488" transform="translate(-873.831 159.535)"/>
+      <path id="Path_47" data-name="Path 47" class="cls-2" d="M884.683-146.408h5.488" transform="translate(-873.831 161.686)"/>
+      <path id="Path_48" data-name="Path 48" class="cls-2" d="M884.683-146.408h5.488" transform="translate(-873.831 163.837)"/>
+    </g>
+  </g>
+</svg>

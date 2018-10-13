@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 62">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-add-edit);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-add-edit">
+      <rect width="70" height="62"/>
+    </clipPath>
+  </defs>
+  <g id="add-edit" class="cls-1">
+    <g id="Group_213" data-name="Group 213" transform="translate(-3 1)">
+      <g id="Group_21" data-name="Group 21" transform="translate(-859 -71)">
+        <g id="Group_211" data-name="Group 211" transform="translate(876 81)">
+          <g id="Rectangle_137" data-name="Rectangle 137" class="cls-2">
+            <rect class="cls-3" width="41.804" height="39.904" rx="11"/>
+            <rect class="cls-4" x="3" y="3" width="35.804" height="33.904" rx="8"/>
+          </g>
+          <g id="Group_200" data-name="Group 200" transform="translate(3.28 18.952)">
+            <path id="Path_26" data-name="Path 26" class="cls-2" d="M806.114,88.051H823.3" transform="translate(-796.613 -86.16)"/>
+          </g>
+          <g id="Group_214" data-name="Group 214" transform="translate(23.267 2.747) rotate(90)">
+            <path id="Path_26-2" data-name="Path 26" class="cls-2" d="M806.114,88.051H823.3" transform="translate(-796.613 -86.16)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

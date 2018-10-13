@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-memu-bottom);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: #6129ff;
+      }
+    </style>
+    <clipPath id="clip-memu-bottom">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="memu-bottom" class="cls-1">
+    <path id="Path_4" data-name="Path 4" class="cls-2" d="M1667.7,1763.4q-48.3-13.2-95.6-29h0C846.3,1492.3,323,807.2,323,0H0V2200H2151C2065,1939.8,1808.6,1814.2,1667.7,1763.4Z" transform="translate(-1053 -1078)"/>
+    <path id="Path_5" data-name="Path 5" class="cls-3" d="M33.2,8.732q-.962.264-1.9.58h0A36.562,36.562,0,0,0,6.431,44H0V0H42.826C41.114,5.2,36.009,7.716,33.2,8.732Z" transform="translate(0.228)"/>
+  </g>
+</svg>

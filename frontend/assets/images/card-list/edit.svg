@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 37 37">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-edit_);
+      }
+
+      .cls-2, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #707070;
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-edit_">
+      <rect width="37" height="37"/>
+    </clipPath>
+  </defs>
+  <g id="edit_" data-name="edit&apos;" class="cls-1">
+    <rect class="cls-6" width="37" height="37"/>
+    <g id="Group_1" data-name="Group 1" transform="translate(-3 -3.314)">
+      <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2" transform="translate(5 8.695)">
+        <rect class="cls-4" width="30.21" height="30.21" rx="6"/>
+        <rect class="cls-5" x="1" y="1" width="28.21" height="28.21" rx="5"/>
+      </g>
+      <path id="Path_1" data-name="Path 1" class="cls-2" d="M478.619,232.314l-10.7,9.183-3.722,3.2-.73,4.184,4.418-.648L481.61,235.9Z" transform="translate(-443.843 -227)"/>
+      <path id="Path_2" data-name="Path 2" class="cls-3" d="M10.342,23.8H24.9" transform="translate(2.37 3)"/>
+      <path id="Path_3" data-name="Path 3" class="cls-3" d="M10.342,23.8H24.9" transform="translate(2.37 8)"/>
+    </g>
+  </g>
+</svg>

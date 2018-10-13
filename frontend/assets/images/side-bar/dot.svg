@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 22 23">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-dot);
+      }
+
+      .cls-2 {
+        fill: #ff006f;
+      }
+
+      .cls-3 {
+        filter: url(#Ellipse_2);
+      }
+    </style>
+    <filter id="Ellipse_2" x="-3" y="-3" width="29" height="29" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#2f06a4" flood-opacity="0.439"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-dot">
+      <rect width="22" height="23"/>
+    </clipPath>
+  </defs>
+  <g id="dot" class="cls-1">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" class="cls-2" cx="5.5" cy="5.5" r="5.5" transform="translate(6 1)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 30 29">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-item_list);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 1.2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-item_list">
+      <rect width="30" height="29"/>
+    </clipPath>
+  </defs>
+  <g id="item_list" data-name="item list" class="cls-1">
+    <g id="Group_68" data-name="Group 68">
+      <g id="Group_65" data-name="Group 65" transform="translate(-0.143 -2.143)">
+        <g id="Group_56" data-name="Group 56" transform="translate(13.606 26.419) rotate(-135)">
+          <g id="Rectangle_66" data-name="Rectangle 66" class="cls-2" transform="translate(0 0)">
+            <rect class="cls-3" width="7.868" height="17.309" rx="3.934"/>
+            <rect class="cls-4" x="0.6" y="0.6" width="6.668" height="16.109" rx="3.334"/>
+          </g>
+          <path id="Path_29" data-name="Path 29" class="cls-2" d="M6.855,8.826H.869"/>
+        </g>
+        <g id="Group_62" data-name="Group 62" transform="translate(0 2)">
+          <g id="Ellipse_10" data-name="Ellipse 10" class="cls-2" transform="translate(5.143 4.143)">
+            <ellipse class="cls-3" cx="4.721" cy="4.721" rx="4.721" ry="4.721"/>
+            <ellipse class="cls-4" cx="4.721" cy="4.721" rx="4.121" ry="4.121"/>
+          </g>
+          <path id="Path_20" data-name="Path 20" class="cls-2" d="M-1892-239.453v3.49" transform="translate(1901.863 246.538)"/>
+          <path id="Path_21" data-name="Path 21" class="cls-2" d="M0,0V3.49" transform="translate(11.609 8.831) rotate(90)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

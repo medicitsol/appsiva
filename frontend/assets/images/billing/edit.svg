@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 23">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-supplier_list_1);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #402981;
+        stroke-width: 2px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: #402981;
+      }
+    </style>
+    <clipPath id="clip-supplier_list_1">
+      <rect width="24" height="23"/>
+    </clipPath>
+  </defs>
+  <g id="supplier_list_1" data-name="supplier list – 1" class="cls-1">
+    <g id="Group_199" data-name="Group 199" transform="translate(-3 -3)">
+      <g id="Group_198" data-name="Group 198" transform="translate(2.699 -1.718)">
+        <g id="Path_49" data-name="Path 49" class="cls-2" transform="matrix(0.799, 0.602, -0.602, 0.799, 14.913, 10.305)">
+          <path class="cls-4" d="M 1.5 11.52572917938232 L 1.5 1.500000476837158 L 1.5 11.52572917938232 Z"/>
+          <path class="cls-5" d="M 1.377259969711304 14.30962085723877 L -2.220446049250313e-16 12 L -2.220446049250313e-16 4.286193870939314e-07 L 3 4.286193870939314e-07 L 3 12 L 1.377259969711304 14.30962085723877 Z"/>
+        </g>
+        <path id="Path_50" data-name="Path 50" class="cls-3" d="M1114.421-106.282l2.377,1.816" transform="translate(-1098 115)"/>
+      </g>
+    </g>
+  </g>
+</svg>

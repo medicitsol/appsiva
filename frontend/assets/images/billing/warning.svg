@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 84">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-warning);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke-width: 7px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #ff232a;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+    <clipPath id="clip-warning">
+      <rect width="84" height="84"/>
+    </clipPath>
+  </defs>
+  <g id="warning" class="cls-1">
+    <g id="Group_80" data-name="Group 80" transform="translate(3.139 3.139)">
+      <g id="Group_192" data-name="Group 192" transform="translate(3.861 3.861)">
+        <path id="Path_29" data-name="Path 29" class="cls-2" d="M43.069,78.138A35.069,35.069,0,1,1,78.138,43.069,35.106,35.106,0,0,1,43.069,78.138Z" transform="translate(-8 -8)"/>
+      </g>
+      <g id="Group_193" data-name="Group 193" transform="translate(38.93 21.225)">
+        <line id="Line_1" data-name="Line 1" class="cls-3" y2="20.769"/>
+        <line id="Line_2" data-name="Line 2" class="cls-3" y2="7.15" transform="translate(0 28.259)"/>
+      </g>
+    </g>
+  </g>
+</svg>

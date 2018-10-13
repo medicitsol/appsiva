@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 123 123">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-avator);
+      }
+
+      .cls-2 {
+        fill: #eee;
+      }
+
+      .cls-3 {
+        fill: #cfcfcf;
+      }
+    </style>
+    <clipPath id="clip-avator">
+      <rect width="123" height="123"/>
+    </clipPath>
+  </defs>
+  <g id="avator" class="cls-1">
+    <g id="Group_1" data-name="Group 1" transform="translate(-538 -140)">
+      <circle id="Ellipse_11" data-name="Ellipse 11" class="cls-2" cx="57" cy="57" r="57" transform="translate(543 144)"/>
+      <path id="Path_30" data-name="Path 30" class="cls-3" d="M28.787,0A28.787,28.787,0,0,1,57.575,28.787c0,15.9-57.575,15.9-57.575,0A28.787,28.787,0,0,1,28.787,0Z" transform="translate(571.213 196.738)"/>
+      <ellipse id="Ellipse_12" data-name="Ellipse 12" class="cls-3" cx="17.272" cy="17.272" rx="17.272" ry="17.272" transform="translate(582.728 162.193)"/>
+    </g>
+  </g>
+</svg>

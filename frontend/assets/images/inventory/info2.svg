@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 62">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-info2);
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 6px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-info2">
+      <rect width="70" height="62"/>
+    </clipPath>
+  </defs>
+  <g id="info2" class="cls-1">
+    <g id="Group_212" data-name="Group 212" transform="translate(-3 1)">
+      <g id="Group_21" data-name="Group 21" transform="translate(-859 -71)">
+        <g id="Group_211" data-name="Group 211" transform="translate(876 81)">
+          <g id="Rectangle_137" data-name="Rectangle 137" class="cls-2">
+            <rect class="cls-3" width="41.804" height="39.904" rx="11"/>
+            <rect class="cls-4" x="3" y="3" width="35.804" height="33.904" rx="8"/>
+          </g>
+          <g id="Group_200" data-name="Group 200" transform="translate(9.717 13.397)">
+            <path id="Path_25" data-name="Path 25" class="cls-2" d="M806.114,88.051h5.562" transform="translate(-806.114 -87.051)"/>
+            <path id="Path_26" data-name="Path 26" class="cls-2" d="M806.114,88.051h12.315" transform="translate(-796.613 -87.051)"/>
+          </g>
+          <g id="Group_201" data-name="Group 201" transform="translate(9.717 20.998)">
+            <path id="Path_25-2" data-name="Path 25" class="cls-2" d="M806.114,88.051h5.562" transform="translate(-806.114 -84.051)"/>
+            <path id="Path_26-2" data-name="Path 26" class="cls-2" d="M806.114,88.051h12.315" transform="translate(-796.613 -84.051)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-bottom);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-bottom">
+      <rect width="44" height="44"/>
+    </clipPath>
+  </defs>
+  <g id="bottom" class="cls-1">
+    <path id="Union_3" data-name="Union 3" class="cls-2" d="M-662,152.5v-37h-37v-7h44v44Zm0-11.326A26.094,26.094,0,0,0-688,115.5h26v25.676Z" transform="translate(699 -108.5)"/>
+  </g>
+</svg>

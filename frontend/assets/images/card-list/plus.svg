@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 65 66">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Artboard_2);
+      }
+
+      .cls-2 {
+        fill: #ff0080;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_10);
+      }
+    </style>
+    <filter id="Ellipse_10" x="-5" y="-3" width="75" height="75" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feFlood flood-color="#ff1a76" flood-opacity="0.471"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Artboard_2">
+      <rect width="65" height="66"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_2" data-name="Artboard – 2" class="cls-1">
+    <g id="Group_195" data-name="Group 195" transform="translate(-657 -601)">
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, 657, 601)">
+        <circle id="Ellipse_10-2" data-name="Ellipse 10" class="cls-2" cx="25.5" cy="25.5" r="25.5" transform="translate(7 3)"/>
+      </g>
+      <g id="Group_59" data-name="Group 59" transform="translate(0 2)">
+        <path id="Path_23" data-name="Path 23" class="cls-3" d="M103.5,2889.311v19.345" transform="translate(586 -2271)"/>
+        <path id="Path_24" data-name="Path 24" class="cls-3" d="M103.5,2889.311v19.345" transform="translate(3588.483 524.484) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>
