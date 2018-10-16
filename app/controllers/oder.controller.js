@@ -189,7 +189,7 @@ exports.received = (req, res) => {
 
 // Retrieve and return all orders from the database.
 exports.findAll = (req, res) => {
-    Order.paginate({ status: { $ne: 'DELETED' } }, { limit: 20 })
+    Order.paginate({ status: { $ne: 'DELETED' } }, { limit: 5 })
         .then(orders => {
             res.send(orders);
         }).catch(err => {

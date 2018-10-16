@@ -3,7 +3,8 @@ var mongoosePaginate = require('mongoose-paginate');
 
 const ItemMasterSchema = mongoose.Schema({
 
-    itemCode: Number,
+    // itemCode: Number,
+    itemCode: String,
     itemName: String,
     reorderLevel: Number,
     orderQuantity: Number,

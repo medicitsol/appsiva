@@ -1,5 +1,6 @@
 const Item = require('../models/item-master.model.js');
 const Inventory = require('../models/inventory.master.model');
+const leftPad = require('left-pad')
 
 // Create and Save a new Item
 exports.create = (req, res) => {
@@ -10,20 +11,45 @@ exports.create = (req, res) => {
         });
     }
 
+    var itemCodeSliced = req.body.itemName.slice(0, 2);
 
 
-
-
-
-    Item.find().limit(1).sort({ $natural: -1 })
+    Item.find({ itemCode: { $regex: itemCodeSliced, $options: "$i" } }).limit(1).sort({ $natural: -1 })
         .then(lastItem => {
 
-            var itemCode = 0;
+            var setItemCode;
+            var convertedItemCode = 0;
+            var convertedItemCodeFinal = 0;
+            var stringItemCount;
+            var selectedLetter;
+
+            var finalItemCode;
+
+            var capitalizedItemCode;
+
 
             if (lastItem.length > 0) {
-                itemCode = lastItem[0].itemCode + 1;
+
+
+                setItemCode = lastItem[0].itemCode.slice(2, 5);
+                convertedItemCode = parseInt(setItemCode);
+                convertedItemCodeFinal = convertedItemCode + 1;
+
+
+                selectedLetter = lastItem[0].itemName.slice(0, 2);
+
+                finalItemCode = selectedLetter + leftPad(convertedItemCodeFinal, 3, 0);
+                capitalizedItemCode = finalItemCode.toUpperCase();
+
+
             } else {
                 itemCode = 0 + 1;
+
+                convertedItemCodeFinal = 0 + 1;
+
+                finalItemCode = itemCodeSliced + leftPad(convertedItemCodeFinal, 3, 0);
+                capitalizedItemCode = finalItemCode.toUpperCase();
+
             }
 
 
@@ -34,7 +60,7 @@ exports.create = (req, res) => {
             const item = new Item({
 
                 // itemCode: req.body.itemCode,
-                itemCode: itemCode,
+                itemCode: capitalizedItemCode,
                 itemName: req.body.itemName,
                 reorderLevel: req.body.reorderLevel,
                 orderQuantity: req.body.orderQuantity,
@@ -162,6 +188,7 @@ exports.findAll = (req, res) => {
         sort: { updatedAt: -1 },
         limit: 20
     };
+
 
     Item.paginate({ status: { $ne: 'DELETED' } }, options)
         .then(items => {
